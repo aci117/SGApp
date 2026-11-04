@@ -28,7 +28,7 @@
       <tbody>
         <?php
 
-        mysqli_init();
+        $conexion = mysqli_init();
 
         mysqli_ssl_set(
             $conexion,
